@@ -17,7 +17,7 @@ function setup() {
     let m = random(5, 25);
     movers[i] = new Mover(pos.x, pos.y, vel.x, vel.y, m);
   }
-  sun = new Mover(100, 100, 0, 0, 500);
+  sun = new Mover(0, 0, 0, 0, 500);
   background(0);
 }
 
